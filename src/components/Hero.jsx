@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Button from "./utils/button";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Hero = () => {
@@ -26,7 +26,6 @@ const Hero = () => {
         )}
         <h2 className="text-3xl text-[#ffff]">25% Off On All Products</h2>
         <div className="space-x-8 flex">
-          <Button />
           <button className="border-[1px] border-white text-white px-8 py-4 hover:bg-white hover:text-black transition-all ease-in-out duration-1000 hidden lg:flex">
             Find More
           </button>
