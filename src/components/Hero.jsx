@@ -29,6 +29,9 @@ const Hero = () => {
           <button className="border-[1px] border-white text-white px-8 py-4 hover:bg-white hover:text-black transition-all ease-in-out duration-1000 hidden lg:flex">
             Find More
           </button>
+          <button className="bg-white px-8 py-4 hover:bg-black hover:text-white transition-all ease-in-out duration-1000">
+            Shop Now
+          </button>
         </div>
       </div>
     </div>

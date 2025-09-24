@@ -17,6 +17,9 @@ const Card = ({ discountInfo, body, imageUrl }) => {
       <div className="w-[80%] m-auto mb-4 space-y-3 z-10 ">
         <h1 className="text-white text-2xl font-bold">{discountInfo}</h1>
         <p className="text-white text-md">{body}</p>
+        <button className="bg-white px-8 py-4 hover:bg-black hover:text-white transition-all ease-in-out duration-1000">
+          Shop Now
+        </button>
       </div>
     </article>
   );
