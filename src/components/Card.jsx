@@ -1,4 +1,3 @@
-import Button from "./utils/button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -18,8 +17,6 @@ const Card = ({ discountInfo, body, imageUrl }) => {
       <div className="w-[80%] m-auto mb-4 space-y-3 z-10 ">
         <h1 className="text-white text-2xl font-bold">{discountInfo}</h1>
         <p className="text-white text-md">{body}</p>
-
-        <Button />
       </div>
     </article>
   );
